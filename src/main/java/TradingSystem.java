@@ -3,6 +3,7 @@ public class TradingSystem {
     public static final String ANSI_RESET = "\u001B[0m";
     
 	public static void main(String[] args) {
+		activatePowerPegMode();
 	System.out.println("Hệ thống SMARS bắt đầu hoạt động...");
         // Giả lập server cũ nhận Flag=1 (nhẽ ra là lệnh mới nhưng code cũ hiểu là Power Peg)
         int receivedFlag = 1; 
